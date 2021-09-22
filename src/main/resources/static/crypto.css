@@ -1,0 +1,373 @@
+body {
+    margin: 0px;
+    padding: 0;
+    font-family: sans-serif;
+    background: #2d3436;
+    color: white;
+}
+header {
+    /*background-image: url("logo.jpg");*/
+
+    overflow: hidden;
+    background-color: #454a54;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+.flex-box{
+    display: flex;
+    flex-direction: row;
+    align-content: end;
+
+}
+.flex-box button[type = "button"]{
+    min-width: 200px;
+    margin: 10px 10px 10px 10px;
+    color: white;
+
+}
+.flex-box #pagetitle{
+    float: right;
+    display: block;
+    color: #feca57;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 200px;
+}
+
+.flex-box #signupNav{
+    color: #feca57;
+}
+.flex-box #loginNav{
+    color: #feca57;
+    border-color: #feca57;
+    background: #feca57;
+    color: #2d3436;
+}
+
+.flex-box #loginNav:hover{
+    opacity: 0.8;
+}
+
+header a{
+    float: right;
+    display: block;
+    color: #feca57;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+#cryptologo{
+    max-width: 15px;
+    height: auto;
+
+}
+
+
+section{
+    margin: 30px;
+}
+
+/*h1{*/
+/*    color: #fbc531;*/
+/*    text-align: right;*/
+/*    margin-right: 50px;*/
+
+/*}*/
+
+/**
+Bepaalt inhoud en plaatsing van box om alle elementen
+*/
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #353b48;
+    text-align: center;
+    border-radius: 10px;
+    opacity: 0.9;
+    background-size: 6px 6px;
+    background-image: repeating-linear-gradient(45deg, #454a54 0, #454a54 0.6000000000000001px, #2d3436 0, #2d3436 50%);
+
+}
+.box h1{
+    color: #feca57;
+    text-align: center;
+    left: 50%;
+}
+/*
+Bepaalt stijl voor Login header
+*/
+.box h2{
+    color: white;
+    text-transform: none;
+    font-weight: 300;
+}
+fieldset{
+    border: 1px dotted white;
+    border-radius: 10px;
+    margin: 10px 0px 40px 0px;
+}
+
+h1{
+    color: white;
+}
+input
+{
+    border: 0;
+    background: none;
+    /*display: block;*/
+    margin: 5px 10px 5px 5px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    padding: 10px 8px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    transition: 0.25s;
+}
+
+#registrationForm input{
+    border: 0;
+    border-bottom: 1px solid white;
+}
+
+#registrationForm input:focus{
+    width: 200px;
+    border-color: #feca57;
+}
+
+
+legend{
+    color: #feca57;
+}
+
+label{
+    color: white;
+    min-width: 235px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 5px;
+    font-size: smaller;
+}
+/*
+Transformeert de stijl van de invulveld als de cursor erop staat
+*/
+input:focus{
+    width: 250px;
+    border-color: #feca57;
+}
+
+/*
+Voor de submit buttons
+*/
+button[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #ffffff;
+    padding: 10px 8px;
+    min-width: 100px;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    transition: 0.25s;
+}
+button[type = "submit"]:hover{
+    background: #feca57;
+    color: #2d3436;
+    border-color: #feca57;
+    transition: 0.25s;
+}
+
+/*
+Styling voor normale buttons
+*/
+button[type = "button"]{
+    border: none;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px 8px;
+    width: 100px;
+    outline: none;
+    color: #feca57;
+
+}
+button[type = "button"]:hover{
+    opacity:1;
+    text-decoration: underline;
+}
+
+/*
+Division overlay op recoveryscherm
+*/
+#emailsuccesful {
+    visibility: hidden;
+    text-align: center;
+    color: white;
+}
+
+small {
+    width: auto;
+    color: rgb(215,50,0);
+}
+
+#registrationForm input.formData.success {
+    border: 2px solid hsl(111,98%,50%);
+}
+
+#registrationForm input.formData.error {
+    border: 2px solid rgb(215,50,0);
+    /*border-color: hsl(111,98%,50%)*/;
+}
+
+table {
+    color: white;
+    border-radius: 10px;
+    opacity: 0.9;
+    background: #353b48;
+    background-image: repeating-linear-gradient(45deg, #454a54 0, #454a54 0.6000000000000001px, #2d3436 0, #2d3436 50%);
+    background-size: 6px 6px;
+    padding: 30px;
+    border: 1px dotted white;
+    text-align: left;
+    table-layout: fixed;
+
+}
+
+th {
+    color: #feca57;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+th, td {
+    padding-right: 20px;
+    padding-top: 8px;
+}
+
+#exchangePage{
+    margin: 30px;
+    padding: 30px;
+}
+#exchangePage #assetTable {
+    margin: 30px;
+    padding: 30px;
+}
+
+#orderForm {
+    flex-flow: row wrap;
+    background: #353b48;
+    background-image: repeating-linear-gradient(45deg, #454a54 0, #454a54 0.6000000000000001px, #2d3436 0, #2d3436 50%);
+    background-size: 6px 6px;
+    padding: 45px 40px 25px 43px;
+    border: 1px dotted white;
+    border-radius: 10px;
+    width: 350px;
+    margin: 30px 30px 30px 100px;
+    text-align: center;
+}
+
+#selectAsset {
+    margin-bottom: 20px;
+    width: 220px;
+    height: 30px;
+    border-radius: 7px;
+    text-align: center;
+}
+#amount, #adminFindUser {
+    width: 193px;
+}
+
+#blockedUsers {
+    margin: 30px;
+    padding: 30px;
+}
+
+
+/*!*select: betreft dropdown menu*!
+.custom-select {
+    position: relative;
+    font-family: sans-serif;
+}
+.custom-select select {
+    display: none;
+}
+.select-selected {
+    background-color: white;
+}
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+}
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+}
+.select-items div,.select-selected {
+    color: #353b48;
+    padding: 8px 16px;
+    border: 1px solid black;
+    !*border-radius: 10px;*!
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+}
+.select-items {
+    position: absolute;
+    background-color: white;
+    top: 100%;
+    left: 0;
+    right: 0;
+    !*z-index: 99;*!
+}
+.select-hide {
+    display: none;
+}
+.select-items div:hover, .same-as-selected {
+    background-color: gray;
+}*/
+
+#currentBalanceBox{
+    margin: 30px;
+    padding: 30px;
+}
+
+#portfolioPage{
+    margin: 30px;
+    padding: 30px;
+}
+#portfolioPage #portfolioTable{
+    margin: 30px;
+    padding: 30px;
+}
+
+#portfolioPage #buyMore{
+    color: #feca57;
+    border-color: #feca57;
+    background: #feca57;
+    color: #2d3436;
+}
+
+#portfolioPage #buyMore:hover{
+    opacity: 0.8;
+}

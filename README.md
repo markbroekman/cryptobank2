@@ -9,7 +9,7 @@
 - [ ] burgerservicenummer
 - [ ] adres
 - [ ] wachtwoord opslag voldoet aan OWASP best practices
-- [ ] bij succes registereren wordt correcte http status code gecommuniceerd 
+- [ ] bij succes registereren wordt correcte http status code gecommuniceerd
 - [ ] bij falen registereren wordt correcte http status code gecommuniceerd met passende foutmelding
 - [ ] response in json format
 
@@ -49,29 +49,30 @@
 
 - [ ] assettype
 - [ ] koerswaarde aangeven
-- [ ] aantal 
+- [ ] aantal
 
 ## Als portfoliohouder wil ik een order kunnen plaatsen waarbij ik kan aangeven dat er een asset moet worden verkocht bij een bepaalde koerswaarde
 
 - [ ] assettype
 - [ ] koerswaarde aangeven
-- [ ] aantal 
+- [ ] aantal
 
 ## Als portfoliohouder wil ik bij naar andere klant assets kunnen overmaken
 
 - [ ] klant kunnen selecteren
-- [ ] asset  
+- [ ] asset
 - [ ] aantal
 
 ## Als portfoliohouder wil ik bij naar andere klant op een ander platform assets kunnen overmaken
 
 ## Als gebruiker wil ik mijn wachtwoord opnieuw kunnen instellen wanneer ik mijn wachtwoord vergeten ben, zodat ik weer toegang tot mijn gegevens heb
 
-gebruikers vergeten nogal eens hun wachtwoord, en dan is het handig dat er een gebruikersvriendelijke- en veilige manier is om het wachtwoord weer opnieuw in te stellen. Een veelgebruikte, gebruiksvriendelijke manier is via email.
+gebruikers vergeten nogal eens hun wachtwoord, en dan is het handig dat er een gebruikersvriendelijke- en veilige manier
+is om het wachtwoord weer opnieuw in te stellen. Een veelgebruikte, gebruiksvriendelijke manier is via email.
 
 [voorbeeld](https://www.baeldung.com/spring-email)
 
-- [ ] reset via email 
+- [ ] reset via email
 - [ ] de periode van aanvraag tot opnieuw instellen is beperkt om misbruik, fraude tegen te gaan
 
 ## Als systeembeheerder wil ik inzicht in het aantal queries per endpoint, zodat ik in de gaten kan houden wat de belasting is per endpoint
@@ -84,8 +85,11 @@ gebruikers vergeten nogal eens hun wachtwoord, en dan is het handig dat er een g
 
 ## Als systeembeheerder wil ik van een gebruiker zijn huidige inlogmogelijkheid kunnen intrekken(blokkeren), zodat bij mogelijk frauduleuze activiteiten op betreffende accounts niet mogelijk zijn
 
-In het geval van een gecompromitteerd account frauduleuze activiteiten  dient de organisatie verdere frauduleuze activiteiten tegen te kunnen gaan. permanent en tijdelijk. Permanent leidt tot het opnieuw moeten instellen van de inloggegevens. Na vrijgave door de systeembeheerder
+In het geval van een gecompromitteerd account frauduleuze activiteiten dient de organisatie verdere frauduleuze
+activiteiten tegen te kunnen gaan. permanent en tijdelijk. Permanent leidt tot het opnieuw moeten instellen van de
+inloggegevens. Na vrijgave door de systeembeheerder
 
-- [ ] Systeembeheerder kan naar een passende beheerpagina toe navigeren waar deze een rekeninghouder kan opzoeken en zijn inlogmogelijkheid kan blokkeren/intrekken. Pagina toont huidige geblokkeerde, permanent en tijdelijke, accounts
+- [ ] Systeembeheerder kan naar een passende beheerpagina toe navigeren waar deze een rekeninghouder kan opzoeken en
+  zijn inlogmogelijkheid kan blokkeren/intrekken. Pagina toont huidige geblokkeerde, permanent en tijdelijke, accounts
 - [ ] De functionaliteit is alleen toegankelijk voor een systeembeheerder
 

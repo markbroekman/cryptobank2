@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Customer Dashboard</title>
+    <link href="crypto.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="flex-box">
+            <div class="site-logo" href= "/index.html">
+                <a id="cryptologo" href= "/index.html"><img src="logo.jpg"> </a>
+            </div>
+            <button id="aboutNav" type="button">About</button>
+            <button id="dashboardNav" type="button">My CryptoKnights</button>
+            <button id="exchangeNav" type="button">Exchange</button>
+            <button id="signupNav" type="button">Signup</button>
+            <button id="loginNav" type="submit" >Login</button>
+            <span id="pagetitle">My Portfolio</span>
+        </div>
+
+    </header>
+
+    <div id="currentBalanceBox" class="flex-box">
+        <span id="portfolioValue">Total Asset Value: </span>
+        <div id="totalPortfolioValue"> $ </div>
+    </div>
+
+    <div id="portfolioPage" class="flex-box">
+        <div id="portfolio">
+            <table id="portfolioTable">
+            </table>
+        </div>
+        <div>
+            <form id="orderForm">
+                <select id="selectAsset" name="selectAsset" required>
+                    <option value="" disabled selected hidden>Choose Crypto</option>
+                </select>
+                <input type="number" id="amount" placeholder="Enter Amount" name="amount" autocomplete="off" required>
+                <button id="buyMore" type="submit" >BUY MORE</button>
+                <button id="sell" type="submit">SELL</button>
+            </form>
+        </div>
+    </div>
+
+    <script type="module" src="dashboard.js"></script>
+    <script src="crypto.js"></script>
+
+</body>
+</html>

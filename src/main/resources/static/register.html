@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="crypto.css" rel="stylesheet">
+    <title>Register Cryptobank</title>
+</head>
+<body>
+<header>
+    <a>Create Account </a>
+    <div class="site-logo" href= "/index.html">
+        <a id="cryptologo" href= "/index.html">
+<!--            <img src="logo.jpg">-->
+        </a>
+    </div>
+</header>
+
+<section>
+
+    <h1>Register</h1>
+    <article>
+        <form id="registrationForm" action="http://localhost:8080/register"method="post">
+            <fieldset>
+                <legend>Personal data</legend>
+                <label for="username">Username</label><label for="password">Password</label><br>
+                <input class="formData" type="text" id="username" name="username" placeholder="username" required>
+                <input class="formData" type="password" id="password" name="password" placeholder="password" required><br>
+
+
+                <label for="firstname">First Name</label><label for="lastname">Last Name</label><br>
+                <input class="formData toCheck" type="text" id="firstname" name="firstName" placeholder="first name" required>
+
+                <input class="formData toCheck" type="text" id="lastname" name="lastName" placeholder="last name" required><br>
+
+                <label for="dateOfBirth">Date of Birth</label><label for="socialSecurityNumber">Social Security Number</label><label for="email">Email Address</label><br>
+                <input class="formData toCheck" type="date" id="dateOfBirth" name="dateOfBirth" required>
+                <input class="formData" type="number" id="socialSecurityNumber" name="socialSecurityNumber" placeholder="social security number" required>
+                <input class="formData" type="email" id="email" name="email" placeholder="email address" required>
+            </fieldset>
+            <fieldset>
+                <legend>Address</legend>
+                <label for="street">Street</label><label for="housenumber">House Number</label><label for="addition">Addition</label><br>
+                <input class="formData toCheck" type="text" id="street" placeholder="street" name="street" required>
+                <input class="formData toCheck" type="number" id="housenumber" placeholder="house number" name="housenumber" required>
+                <input class="formData" type="text" id="addition" placeholder="addition" name="addition"><br>
+
+                <label for="zipcode">Zipcode</label><label for="city">City</label><br>
+                <input class="formData toCheck" type="text" id="zipcode" placeholder="zipcode"  name="zipcode" required maxlength="6" minlength="6">
+                <input class="formData toCheck" type="text" id="city" placeholder="city" name="city" required><br>
+                <small class="formData" id="line1"></small><br>
+            </fieldset>
+            <button id="register" type="submit" >Register</button>
+        </form>
+    </article>
+</section>
+
+
+<script src='register.js'>  </script>
+
+</body>
+</html>

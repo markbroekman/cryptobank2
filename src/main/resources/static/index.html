@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+
+    <link href="crypto.css" rel="stylesheet">
+    <title>Mijn CryptoKnights inlog</title>
+
+</head>
+    <body>
+    <header>
+        <div class="flex-box">
+            <div class="site-logo" href= "/index.html">
+                <a id="cryptologo" href= "/index.html"><img src="logo.jpg"> </a>
+            </div>
+            <button id="aboutNav" type="button">About</button>
+            <button id="dashboardNav" type="button">My CryptoKnights</button>
+            <button id="exchangeNav" type="button">Exchange</button>
+            <button id="signupNav" type="button">Signup</button>
+            <button id="loginNav" type="submit" >Login</button>
+            <span id="pagetitle">CryptoKnights </span>
+        </div>
+    </header>
+
+            <div id="maincontent">
+                <form class="box" action="http://localhost:8080/login" method="post">
+                    <!--<h1 id="header">Mijn CryptoKnights</h1>-->
+                    <h2 id="inlogheader">Login</h2>
+                    <input type="text" id="username" placeholder="Username" name="username" required>
+                    <input type="password" id="password" placeholder="Password" name="password" required>
+                    <button id="submitButton" type="submit" >Login</button>
+                    <button id="signupButton" type="button">Signup</button>
+                    <button id="forgotPasswordButton" type="button" >Forgot password?</button>
+                </form>
+                <p id="log"></p>
+            </div>
+        <script src='login.js'></script>
+        <script src='crypto.js'></script>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="crypto.css" rel="stylesheet">
+    <title>Exchange</title>
+</head>
+
+<body>
+
+    <header>
+     <div class="flex-box">
+            <div class="site-logo" href= "/index.html">
+                <a id="cryptologo" href= "/index.html"><img src="logo.jpg"> </a></div>
+            <button id="aboutNav" type="button">About</button>
+            <button id="dashboardNav" type="button">My CryptoKnights</button>
+            <button id="exchangeNav" type="button">Exchange</button>
+            <button id="signupNav" type="button">Signup</button>
+            <button id="loginNav" type="submit" >Login</button>
+            <span id="pagetitle">Exchange</span>
+        </div>
+    </header>
+
+    <div id="exchangePage" class="flex-box">
+        <div id="allAssets">
+            <table id="assetTable">
+            </table>
+        </div>
+        <div id="buyForm">
+            <form id="orderForm">
+                <!--<div class="custom-select" style="width: 100px;">-->
+                    <select id="selectAsset" name="selectAsset" required>
+                        <option value="" disabled selected hidden>Choose Crypto</option>
+                    </select>
+                <!--</div>-->
+                <input type="number" id="amount" placeholder="Enter Amount" name="amount" autocomplete="off" required>
+                <!--<input type="number" id="limitPrice" placeholder="Optional: add limit" name="limit">-->
+                <button id="buy" type="submit" >BUY NOW</button>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="exchange.js"></script>
+    <script src="crypto.js"></script>
+
+</body>
+</html>
