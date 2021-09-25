@@ -1,11 +1,7 @@
-package com.example.cryptobank.service;
+package com.example.cryptobank.security;
 
 import com.example.cryptobank.domain.Admin;
 import com.example.cryptobank.domain.Customer;
-import com.example.cryptobank.security.CreateToken;
-import com.example.cryptobank.security.CreateTokenImplementation;
-import com.example.cryptobank.security.PepperService;
-import com.example.cryptobank.security.TokenKeyService;
 import com.example.cryptobank.database.RootRepository;
 import com.example.cryptobank.dto.CustomerDto;
 import org.slf4j.Logger;

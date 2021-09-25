@@ -1,4 +1,4 @@
-package com.example.cryptobank.service;
+package com.example.cryptobank.security;
 
 public class ByteArrayToHexHelper {
 

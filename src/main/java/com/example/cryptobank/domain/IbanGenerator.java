@@ -1,4 +1,4 @@
-package com.example.cryptobank.service;
+package com.example.cryptobank.domain;
 
 import org.iban4j.CountryCode;
 import org.iban4j.Iban;

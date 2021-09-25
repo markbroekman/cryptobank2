@@ -1,4 +1,4 @@
-package com.example.cryptobank.service;
+package com.example.cryptobank.security;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
@@ -8,8 +8,6 @@ import com.example.cryptobank.database.RootRepository;
 import com.example.cryptobank.domain.Admin;
 import com.example.cryptobank.domain.Customer;
 import com.example.cryptobank.dto.CustomerDto;
-import com.example.cryptobank.security.CreateToken;
-import com.example.cryptobank.security.TokenKeyService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
